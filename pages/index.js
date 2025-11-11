@@ -1,12 +1,15 @@
-function Video({ video }) {
-  return (
-    <div>
-      <Thumbnail video={video} />
-      <a href={video.url}>
-        <h3>{video.title}</h3>
-        <p>{video.description}</p>
-      </a>
-      <LikeButton video={video} />
-    </div>
-  );
-}
+function Home() {
+    return <>
+    
+    <h1>Hello World</h1>
+    
+    <p>That's some lonesome text</p>
+    
+    <p>That's another lonesome text</p>
+
+    <p>It's my NextJS + React project</p>
+
+    </>
+};
+
+export default Home;
